@@ -20,6 +20,13 @@ models/*.pkl
 
 # Generated outputs
 outputs/*
+
+# Allow README/project screenshots
+!outputs/ela_samples.png
+!outputs/confusion_matrices.png
+!outputs/accuracy_comparison.png
+!outputs/demo_authentic.png
+!outputs/demo_tampered.png
 !outputs/.gitkeep
 
 # Sample files
