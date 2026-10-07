@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Large raw dataset images — keep local
+data/raw/Au/*
+!data/raw/Au/.gitkeep
+
+data/raw/Tp/*
+!data/raw/Tp/.gitkeep
+
+# Generated data
+data/features.csv
+
+# Trained models
+models/*.joblib
+models/*.pkl
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Sample files
+samples/*
+!samples/.gitkeep
+
+# Logs and OS files
+*.log
+.DS_Store

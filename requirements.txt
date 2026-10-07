@@ -1,0 +1,11 @@
+Pillow==10.4.0
+opencv-python==4.10.0.84
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+matplotlib==3.9.2
+seaborn==0.13.2
+joblib==1.4.2
+streamlit==1.39.0
+tqdm==4.66.5
+pytest==8.3.3
